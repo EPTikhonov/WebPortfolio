@@ -56,13 +56,12 @@ body {
 
 .card {
     margin-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:hover {
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -74,20 +73,33 @@ body {
     text-align: center;
 }
 
-.btn-primary,.btn-primary:active,.btn-primary:visited {
-    background-color: #337ab7 !important;
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #31708f !important;
 }
 
 .btn-primary:hover {
-    background-color: #286090 !important;
+    background-color: #245269 !important;
 }
-.text-primary,.text-primary:active,.text-primary:visited {
-    color: #337ab7 !important;
+
+.text-primary,
+.text-primary:active,
+.text-primary:visited {
+    color: #31708f !important;
 }
 
 .text-primary:hover {
-    color: #286090 !important;
+    color: #245269 !important;
+}
+
+.jumbotronContent {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lead {
+    font-weight: 400;
 }
 
 /* bootstrap navbar color #212529 */
-
